@@ -30,7 +30,7 @@ Array.from(gameMode).forEach(mode => {
       moveSelection.style.display = mode.value === "opponent" ? "block" : "none";
       enableMoves();
     });
-  });
+});
 
 playButton.addEventListener
 
