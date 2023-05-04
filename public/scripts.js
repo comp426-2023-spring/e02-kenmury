@@ -45,7 +45,12 @@ async function playGame() {
     if (mode === "random") {
         result.textContent = `You chose ${data.player}!`
     } else {
-        result.textContent = `You ${data.result}!`
+        if (data.result === "tie") {
+          result.textContent = `You chose ${data.player} and tied with ${data.opponent}!`
+        } else {
+          result.textContent = `You chose ${data.player}, your opponent chose ${data.opponent} and
+          you ${data.result}!`
+        }
     }
 }
 
