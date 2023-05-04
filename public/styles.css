@@ -1,8 +1,16 @@
 body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
 }
 
-p {
+div {
+    margin-bottom: 20px;
 }
