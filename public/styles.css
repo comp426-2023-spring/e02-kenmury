@@ -14,3 +14,10 @@ h1 {
 div {
     margin-bottom: 20px;
 }
+
+.resultText {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}

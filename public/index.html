@@ -18,7 +18,7 @@
         </div>
         <br>
         <div>
-            <input type="radio" id="random" name="gameMode" value="random">
+            <input type="radio" id="random" name="gameMode" value="random" checked>
                 <label for="random">Random</label>
             <input type="radio" id="opponent" name="gameMode" value="opponent">
                 <label for="opponent">Play vs. an Opponent</label>
@@ -31,8 +31,9 @@
         </div>
         <br>
         <button id="playButton">Play!</button>
-        <button id="resetButton" style="display:none;">Reset</button>
-        <div id="result"></div>
+        <button id="resetButton">Reset</button>
+        <br>
+        <div id="result" class="resultText"></div>
         <script src="scripts.js"></script>
     </body>
 </html>
